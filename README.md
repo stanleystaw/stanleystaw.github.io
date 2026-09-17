@@ -19,7 +19,7 @@ ou servez-le depuis n'importe quel hébergement statique (GitHub Pages, Netlify,
 
 1. **Hero** — réseau de particules interactif (canvas), effet machine à écrire, compteurs animés
 2. **À propos** — profil, langues, photo encadrée dégradée
-3. **Compétences** — développement web, données & SaaS, IA & automatisation, bots, cybersécurité, design
+3. **Compétences** — développement web, données & SaaS, IA & automatisation, bots, cybersécurité, design, Kotlin & apps mobiles
 4. **Projets** — StawaLend, BETIQ, Stanley Bot SaaS, Automatisation de contenu
 5. **Contact** — email, téléphone, YouTube (HistoireAi-r6p)
 

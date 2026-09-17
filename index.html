@@ -12,7 +12,7 @@
   :root{
     --bg:#070b14; --bg2:#0a101d; --card:#0d1526; --card2:#0b1220;
     --line:rgba(148,163,184,.15); --txt:#eef3fb; --muted:#93a1b8;
-    --cyan:#22d3ee; --violet:#8b5cf6; --pink:#f472b6; --amber:#fbbf24; --green:#34d399; --blue:#60a5fa;
+    --cyan:#22d3ee; --violet:#8b5cf6; --pink:#f472b6; --amber:#fbbf24; --green:#34d399; --blue:#60a5fa; --orange:#fb923c;
     --grad:linear-gradient(92deg,var(--cyan),var(--violet) 55%,var(--pink));
     --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
     --r:20px;
@@ -136,6 +136,12 @@
   .skill p{color:var(--muted);font-size:.88rem;margin-bottom:16px}
   .chips{display:flex;flex-wrap:wrap;gap:8px}
   .chip{padding:5px 12px;border-radius:999px;font-size:.74rem;font-weight:700;background:color-mix(in srgb,var(--ac) 12%,transparent);border:1px solid color-mix(in srgb,var(--ac) 32%,transparent);color:color-mix(in srgb,var(--ac) 80%,white)}
+  .skill.wide{grid-column:1/-1;display:grid;grid-template-columns:auto 1fr auto;align-items:center;column-gap:24px}
+  .skill.wide .skill-ico{grid-column:1;grid-row:1/3;margin:0}
+  .skill.wide h3{grid-column:2}
+  .skill.wide p{grid-column:2;margin:0}
+  .skill.wide .chips{grid-column:3;grid-row:1/3;justify-content:flex-end;max-width:380px}
+  @media(max-width:620px){.skill.wide{display:block}.skill.wide .skill-ico{margin-bottom:18px}.skill.wide p{margin:0 0 16px}}
 
   .proj-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
   @media(max-width:900px){.proj-grid{grid-template-columns:1fr}}
@@ -217,7 +223,7 @@
       <span class="l">& <span class="grad-txt">IA</span> qui livre.</span>
     </h1>
     <div class="typed-line"><span id="typed"></span><span class="caret"></span></div>
-    <p class="hero-sub">Applications web, plateformes SaaS, API et bots personnalisés — de l'architecture au déploiement. Python, JavaScript, intégration de LLM, automatisation et cybersécurité, avec un œil UI/UX sur chaque écran.</p>
+    <p class="hero-sub">Applications web, plateformes SaaS, API et bots personnalisés — de l'architecture au déploiement. Python, JavaScript, intégration de LLM, automatisation et cybersécurité, et des applications mobiles en Kotlin — avec un œil UI/UX sur chaque écran.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="#projets">Voir mes projets
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
@@ -236,7 +242,7 @@
   <div class="stats-grid" data-reveal>
     <div class="stat"><b data-count="5" data-suffix="+">0</b><span>Années d'expérience</span></div>
     <div class="stat"><b data-count="4" data-suffix="">0</b><span>Projets sélectionnés</span></div>
-    <div class="stat"><b data-count="6" data-suffix="">0</b><span>Domaines d'expertise</span></div>
+    <div class="stat"><b data-count="7" data-suffix="">0</b><span>Domaines d'expertise</span></div>
     <div class="stat"><b data-count="2" data-suffix="">0</b><span>Langues professionnelles</span></div>
   </div>
 </div>
@@ -245,7 +251,7 @@
   <div class="mq-track" id="mq">
     <span>Python ✦</span><span>JavaScript ✦</span><span>TypeScript ✦</span><span>Node.js ✦</span>
     <span>IA & LLM ✦</span><span>Automatisation ✦</span><span>Cybersécurité ✦</span><span>UI/UX ✦</span>
-    <span>SQL ✦</span><span>Turso/libSQL ✦</span><span>Bots ✦</span><span>Blender 3D ✦</span>
+    <span>SQL ✦</span><span>Turso/libSQL ✦</span><span>Bots ✦</span><span>Blender 3D ✦</span><span>Kotlin ✦</span><span>Apps mobiles ✦</span>
   </div>
 </div>
 
@@ -262,7 +268,7 @@
       </div>
       <div class="about-text" data-reveal style="--d:.12s">
         <p>Développeur Full-Stack basé à <strong>Cotonou (Bénin)</strong>, je cumule <strong>5 ans d'expérience</strong> avec une spécialisation en <strong>Python</strong> et dans l'<strong>écosystème JavaScript</strong>.</p>
-        <p>Mon terrain de jeu : <strong>applications web</strong>, <strong>plateformes SaaS</strong>, <strong>API</strong> et <strong>bots personnalisés</strong>, de l'architecture au déploiement. J'y ajoute l'<strong>automatisation</strong>, l'<strong>intégration d'IA</strong> et la <strong>cybersécurité</strong>, complétés par de solides compétences en <strong>UI/UX design</strong>.</p>
+        <p>Mon terrain de jeu : <strong>applications web</strong>, <strong>plateformes SaaS</strong>, <strong>API</strong> et <strong>bots personnalisés</strong>, de l'architecture au déploiement. J'y ajoute l'<strong>automatisation</strong>, l'<strong>intégration d'IA</strong> et la <strong>cybersécurité</strong>, complétés par de solides compétences en <strong>UI/UX design</strong> et le développement d’<strong>applications mobiles en Kotlin</strong>.</p>
         <p>Curieux et orienté produit, je pratique le développement assisté par IA (« vibe coding ») pour livrer plus vite des solutions fiables — en <strong>freelance ou à temps plein, à distance</strong>.</p>
         <div class="lang">
           <label>Français <em>Professionnel</em></label>
@@ -320,6 +326,12 @@
         <h3>Design & outils</h3>
         <p>Des interfaces soignées, pensées pour l'utilisateur.</p>
         <div class="chips"><span class="chip">UI/UX</span><span class="chip">Design graphique</span><span class="chip">Blender 3D</span><span class="chip">Replit</span></div>
+      </div>
+      <div class="skill tilt wide" style="--ac:var(--orange)" data-reveal>
+        <div class="skill-ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="3"/><path d="M12 18h.01"/></svg></div>
+        <h3>Kotlin & applications mobiles</h3>
+        <p>Conception et développement d'applications mobiles natives.</p>
+        <div class="chips"><span class="chip">Kotlin</span><span class="chip">Android</span><span class="chip">Apps mobiles</span></div>
       </div>
     </div>
   </div>
@@ -448,7 +460,7 @@
   burger.addEventListener('click', function(){ nav.classList.toggle('open'); });
   nav.addEventListener('click', function(e){ if(e.target.tagName === 'A') nav.classList.remove('open'); });
 
-  var roles = ['Développeur Full-Stack','Spécialiste Python & JavaScript','Expert IA & automatisation','Passionné de cybersécurité','Designer UI/UX'];
+  var roles = ['Développeur Full-Stack','Spécialiste Python & JavaScript','Expert IA & automatisation','Passionné de cybersécurité','Designer UI/UX','Développeur d’apps mobiles Kotlin'];
   var tel = document.getElementById('typed');
   if (reduced) { tel.textContent = roles[0]; }
   else {
