@@ -1,0 +1,4 @@
+Créé par : Hugues Fadonougbo
+Site : https://stanleystaw.github.io/
+Stack : HTML, CSS, JavaScript vanilla — aucune dépendance externe
+Localisation : Cotonou, Bénin

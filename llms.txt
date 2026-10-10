@@ -1,0 +1,27 @@
+# Hugues Fadonougbo — Développeur Full-Stack · IA · Motion Design
+
+> Développeur Full-Stack Python & JavaScript basé à Cotonou, Bénin. Spécialisé en IA & automatisation, motion design et cybersécurité. 5 ans d'expérience. Disponible en freelance et à distance, partout dans le monde.
+
+## Faits clés
+- Nom : Hugues Fadonougbo
+- Rôle : Développeur Full-Stack, IA & automatisation, motion design
+- Localisation : Cotonou, Bénin (remote worldwide)
+- Expérience : 5 ans
+- Langues : français, anglais
+- Email : stanleystawa3@gmail.com
+- Téléphone : +229 01 40 91 22 72
+
+## Compétences
+Python, JavaScript, React, Next.js, Vue/Nuxt, Tailwind CSS, Node.js, Kotlin, SQL, intégration de LLM, automatisation, motion design, UI/UX, cybersécurité, Blender 3D
+
+## Projets
+- StawaLend : MVP de finance décentralisée, architecture full-stack et UI/UX (Lead Developer & Product Designer)
+- BETIQ : composants applicatifs et IA embarquée (Python, API, bases de données)
+- Stanley Bot SaaS : plateforme SaaS multi-utilisateur de gestion de bots (Turso/libSQL)
+- Automatisation de contenu : pipeline Python + IA, workflow TikTok, démos YouTube
+
+## Liens
+- Portfolio : https://stanleystaw.github.io/
+- GitHub : https://github.com/stanleystaw
+- YouTube : https://www.youtube.com/@HistoireAi-r6p
+- CV : https://stanleystaw.github.io/assets/CV_Hugues_FADONOUGBO.pdf

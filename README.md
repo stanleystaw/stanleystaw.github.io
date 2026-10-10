@@ -1,37 +1,29 @@
-# Portfolio — Hugues Fadonougbo
+# Hugues Fadonougbo — Développeur Full-Stack · IA · Motion Design
 
-Développeur Full-Stack · Python & JavaScript — IA & automatisation · Cybersécurité · 5 ans d'expérience.
-Cotonou, Bénin · stanleystawa3@gmail.com · +229 01 40 91 22 72
+**Développeur Full-Stack Python & JavaScript** spécialisé en **IA & automatisation**, **motion design** et **cybersécurité**. 5 ans d'expérience, basé à **Cotonou, Bénin**, disponible en freelance et à distance partout dans le monde.
 
-## Le site
+## Portfolio
 
-`index.html` est une page vitrine **entièrement autonome** (une seule fichier, aucune dépendance externe) :
-styles, scripts et images (base64) sont embarqués. Ouvrez-le tel quel dans un navigateur,
-ou servez-le depuis n'importe quel hébergement statique (GitHub Pages, Netlify, Replit…).
+https://stanleystaw.github.io/
 
-## Contenu
+## Stack technique
 
-- `index.html` — le portfolio complet (hero animé, compétences, projets, contact)
-- `assets/` — les photographies originales optimisées utilisées sur le site
-- `README.md` — ce fichier
+Python · JavaScript · React · Next.js · Vue/Nuxt · Tailwind CSS · Node.js · Kotlin · SQL · Intégration de LLM · Automatisation · Motion Design · UI/UX · Cybersécurité · Blender 3D
 
-## Sections
+## Projets phares
 
-1. **Hero** — réseau de particules interactif (canvas), effet machine à écrire, compteurs animés
-2. **À propos** — profil, langues, photo encadrée dégradée
-3. **Compétences** — développement web (React, Next.js, Vue/Nuxt, Tailwind), données & SaaS, IA & automatisation, bots, cybersécurité, design, Kotlin & apps mobiles
-4. **Projets** — StawaLend, BETIQ, Stanley Bot SaaS, Automatisation de contenu
-5. **Contact** — email, téléphone, YouTube (HistoireAi-r6p)
+- **StawaLend** — MVP de finance décentralisée : architecture Full-Stack, UI/UX complète (Lead Developer & Product Designer)
+- **BETIQ** — composants applicatifs et IA embarquée (Python, API, bases de données)
+- **Stanley Bot SaaS** — plateforme SaaS multi-utilisateur de gestion de bots (Turso/libSQL)
+- **Automatisation de contenu** — pipeline Python + IA, workflow TikTok, démos sur YouTube
 
-## Sécurité
+## Contact
 
-Page statique sans backend ni saisie utilisateur : CSP stricte (`default-src 'none'`),
-`rel="noopener noreferrer"` sur les liens externes, `meta referrer no-referrer`,
-aucun `eval`/`innerHTML`/handler inline, aucune ressource externe chargée.
+- Email : stanleystawa3@gmail.com
+- Téléphone : +229 01 40 91 22 72
+- GitHub : https://github.com/stanleystaw
+- YouTube : https://www.youtube.com/@HistoireAi-r6p
 
-## Lancer en local
+## À propos de ce dépôt
 
-```bash
-python3 -m http.server 3000
-# puis ouvrir http://localhost:3000
-```
+Portfolio personnel en une seule page : HTML, CSS et JavaScript vanilla, auto-hébergé sur GitHub Pages, police personnalisée « Fadonougbo Liquid », design glassmorphism, CSP stricte, optimisé pour les moteurs de recherche et les assistants IA (JSON-LD, llms.txt, sitemap).
