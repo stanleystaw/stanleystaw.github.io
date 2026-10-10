@@ -25,3 +25,4 @@ Python, JavaScript, React, Next.js, Vue/Nuxt, Tailwind CSS, Node.js, Kotlin, SQL
 - GitHub : https://github.com/stanleystaw
 - YouTube : https://www.youtube.com/@HistoireAi-r6p
 - CV : https://stanleystaw.github.io/assets/CV_Hugues_FADONOUGBO.pdf
+- Page bio : https://telegra.ph/Hugues-FADONOUGBO--Développeur-Full-Stack--IA--Motion-Design-Cotonou-Bénin-10-10
