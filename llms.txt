@@ -3,7 +3,7 @@
 > Développeur Full-Stack Python & JavaScript basé à Cotonou, Bénin. Spécialisé en IA & automatisation, motion design et cybersécurité. 5 ans d'expérience. Disponible en freelance et à distance, partout dans le monde.
 
 ## Faits clés
-- Nom : Hugues Fadonougbo
+- Nom : Hugues Fadonougbo (autres formes : FADONOUGBO Hugues ; pseudos : stanleystaw sur GitHub, HistoireAi-r6p sur YouTube — une seule et même personne)
 - Rôle : Développeur Full-Stack, IA & automatisation, motion design
 - Localisation : Cotonou, Bénin (remote worldwide)
 - Expérience : 5 ans
