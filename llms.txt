@@ -27,3 +27,5 @@ Python, JavaScript, React, Next.js, Vue/Nuxt, Tailwind CSS, Node.js, Kotlin, SQL
 - CV : https://stanleystaw.github.io/assets/CV_Hugues_FADONOUGBO.pdf
 - Page bio : https://telegra.ph/Hugues-FADONOUGBO--Développeur-Full-Stack--IA--Motion-Design-Cotonou-Bénin-10-10
 - Page bio (rentry) : https://rentry.co/hugues-fadonougbo
+- Projet StawaLend : https://telegra.ph/StawaLend--par-Hugues-FADONOUGBO-10-11
+- Projet Stanley Bot SaaS : https://telegra.ph/Stanley-Bot-SaaS--par-Hugues-FADONOUGBO-10-11

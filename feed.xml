@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Hugues FADONOUGBO — Portfolio</title>
+<link>https://stanleystaw.github.io/</link>
+<description>Développeur Full-Stack Python &amp; JavaScript — IA &amp; automatisation, motion design, cybersécurité. Cotonou, Bénin.</description>
+<language>fr</language>
+<lastBuildDate>Sat, 10 Oct 2026 20:00:00 GMT</lastBuildDate>
+<item><title>Hugues FADONOUGBO — nouveau portfolio en ligne</title><link>https://stanleystaw.github.io/</link><guid isPermaLink="true">https://stanleystaw.github.io/</guid><pubDate>Sat, 10 Oct 2026 20:00:00 GMT</pubDate><description>Portfolio glassmorphism : projets StawaLend, BETIQ, Stanley Bot SaaS, automatisation de contenu. Compétences : Python, JavaScript, React, Next.js, Vue/Nuxt, Tailwind, Kotlin, IA, motion design.</description></item>
+<item><title>StawaLend — MVP de finance décentralisée</title><link>https://stanleystaw.github.io/#projets</link><guid isPermaLink="false">https://stanleystaw.github.io/#stawalend</guid><pubDate>Sat, 10 Oct 2026 19:00:00 GMT</pubDate><description>Architecture Full-Stack, UI/UX complète et back-end de gestion des prêts. Lead Developer &amp; Product Designer : Hugues FADONOUGBO.</description></item>
+<item><title>Stanley Bot SaaS — plateforme de gestion de bots</title><link>https://stanleystaw.github.io/#projets</link><guid isPermaLink="false">https://stanleystaw.github.io/#stanleybot</guid><pubDate>Sat, 10 Oct 2026 18:00:00 GMT</pubDate><description>SaaS multi-utilisateur : authentification, tableau de bord administrateur, Turso/libSQL. Par Hugues FADONOUGBO.</description></item>
+<item><title>Avis vérifiés — laissez le vôtre</title><link>https://stanleystaw.github.io/#temoignages</link><guid isPermaLink="false">https://stanleystaw.github.io/#avis</guid><pubDate>Sat, 10 Oct 2026 17:00:00 GMT</pubDate><description>Les personnes ayant travaillé avec Hugues FADONOUGBO peuvent laisser un avis vérifié sur son portfolio.</description></item>
+</channel>
+</rss>
