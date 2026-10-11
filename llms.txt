@@ -32,3 +32,5 @@ Python, JavaScript, React, Next.js, Vue/Nuxt, Tailwind CSS, Node.js, Kotlin, SQL
 - Fiche officielle (Google Docs) : https://docs.google.com/document/d/1p5nYJDT17gCPvsmzHhUrFzLVivANT3L74DSu-eh7Eq8/view
 - Fiche dpaste : https://dpaste.org/3XJJj
 - Services : https://telegra.ph/Services--Hugues-FADONOUGBO-Développeur-Full-Stack-Cotonou-Bénin-10-11
+- Page nom exact : https://stanleystaw.github.io/hugues-fadonougbo/
+- Page nom inversé : https://stanleystaw.github.io/fadonougbo-hugues/
