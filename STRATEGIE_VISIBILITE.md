@@ -28,7 +28,7 @@ Les moteurs et les IA ne « connaissent » que ce qu'ils crawlent. Pour qu'un no
 ### Cette semaine
 5. Publier l'article prêt (ARTICLE_DEVTO.md) sur **dev.to**, puis le recopier en **post LinkedIn** et en description de vidéo YouTube.
 6. **YouTube HistoireAi-r6p** : mettre le lien du portfolio dans la description de chaque vidéo + dans les liens de la chaîne.
-7. **GitHub** : bio du profil avec « Développeur Full-Stack · IA · Motion Design — Cotonou » + lien du site dans le champ website.
+7. **GitHub** : bio du profil avec « Développeur Full-Stack · IA · Motion Design — Bénin » + lien du site dans le champ website.
 8. Demander à 3-5 personnes (dont Liam 😄) de partager le lien une fois : chaque lien public = un signal d'indexation.
 
 ### Ensuite (routine)

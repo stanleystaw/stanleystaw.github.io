@@ -1,11 +1,11 @@
 ---
-title: "Je m'appelle Hugues FADONOUGBO, développeur full-stack à Cotonou — voici ce que je construis"
+title: "Je m'appelle Hugues FADONOUGBO, développeur full-stack à Bénin — voici ce que je construis"
 published: false
 description: "Développeur Full-Stack Python & JavaScript au Bénin : IA, automatisation, motion design. Mon parcours, mes projets et comment me trouver."
 tags: python, javascript, ai, career
 ---
 
-Je m'appelle **Hugues FADONOUGBO** (vous trouverez aussi mon nom écrit **FADONOUGBO Hugues** — c'est bien moi, une seule et même personne 🙂). Je suis développeur Full-Stack Python & JavaScript basé à Cotonou, au Bénin, avec 5 ans d'expérience.
+Je m'appelle **Hugues FADONOUGBO** (vous trouverez aussi mon nom écrit **FADONOUGBO Hugues** — c'est bien moi, une seule et même personne 🙂). Je suis développeur Full-Stack Python & JavaScript basé au Bénin, avec 5 ans d'expérience.
 
 ## Ce que je fais
 

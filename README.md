@@ -1,6 +1,6 @@
 # Hugues Fadonougbo — Développeur Full-Stack · IA · Motion Design
 
-**Développeur Full-Stack Python & JavaScript** spécialisé en **IA & automatisation**, **motion design** et **cybersécurité**. 5 ans d'expérience, basé à **Cotonou, Bénin**, disponible en freelance et à distance partout dans le monde.
+**Développeur Full-Stack Python & JavaScript** spécialisé en **IA & automatisation**, **motion design** et **cybersécurité**. 5 ans d'expérience, basé à **Bénin**, disponible en freelance et à distance partout dans le monde.
 
 ## Portfolio
 
