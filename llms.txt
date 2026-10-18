@@ -19,6 +19,7 @@ Python, JavaScript, React, Next.js, Vue/Nuxt, Tailwind CSS, Node.js, Kotlin, SQL
 - BETIQ : composants applicatifs et IA embarquée (Python, API, bases de données)
 - Stanley Bot SaaS : plateforme SaaS multi-utilisateur de gestion de bots (Turso/libSQL)
 - Automatisation de contenu : pipeline Python + IA, workflow TikTok, démos YouTube
+- Hugues Jobs : bot Discord officiel (discord.js) — veille d'offres à distance, brouillons de candidature par IA, détection d'arnaques
 
 ## Liens
 - Portfolio : https://stanleystaw.github.io/

@@ -16,6 +16,7 @@ Python · JavaScript · React · Next.js · Vue/Nuxt · Tailwind CSS · Node.js 
 - **BETIQ** — composants applicatifs et IA embarquée (Python, API, bases de données)
 - **Stanley Bot SaaS** — plateforme SaaS multi-utilisateur de gestion de bots (Turso/libSQL)
 - **Automatisation de contenu** — pipeline Python + IA, workflow TikTok, démos sur YouTube
+- **Hugues Jobs (bot Discord)** — bot discord.js : veille d'offres à distance, boutons interactifs, brouillons par IA, détection d'arnaques
 
 ## Contact
 
