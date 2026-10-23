@@ -351,6 +351,11 @@
   .clipnote{display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:clamp(16px,2.4vw,26px);margin-top:clamp(20px,3vw,30px);border-radius:var(--r)}
   .clipnote strong{color:var(--txt);font-size:.95rem}
   .clipnote p{color:var(--muted);font-size:.85rem;line-height:1.6;margin:6px 0 0;max-width:620px}
+  .clipopen{position:absolute;left:50%;bottom:10px;transform:translateX(-50%);font-size:.72rem;font-weight:700;
+    letter-spacing:.06em;text-transform:uppercase;color:#08131c;background:rgba(62,225,255,.94);
+    padding:7px 14px;border-radius:99px;text-decoration:none;opacity:0;transition:opacity .3s ease}
+  .clipmedia:hover .clipopen,.clipmedia:focus-within .clipopen{opacity:1}
+  @media(hover:none){.clipopen{opacity:1}}
   @media(max-width:640px){.clipmedia{max-height:none}}
 
 </style>
@@ -620,10 +625,11 @@
     <div class="clipgrid">
         <article class="clipcard" data-reveal>
           <div class="clipmedia">
-            <video controls playsinline preload="none" poster="assets/clips/1_segla.jpg" width="720" height="1280" aria-label="Clip Sègla Immobilier — Villa triplex, Fidjrossè Plage">
+            <video controls playsinline preload="metadata" poster="assets/clips/1_segla.jpg" width="720" height="1280" aria-label="Clip Sègla Immobilier — Villa triplex, Fidjrossè Plage">
               <source src="assets/clips/1_segla.mp4" type="video/mp4">
               Votre navigateur ne lit pas la vidéo.
             </video>
+            <a class="clipopen" href="assets/clips/1_segla.mp4" target="_blank" rel="noopener">Ouvrir la vidéo</a>
           </div>
           <div class="clipbody">
             <span class="cliptag">47 s · 9:16 · 1080×1920</span>
@@ -634,10 +640,11 @@
         </article>
         <article class="clipcard" data-reveal>
           <div class="clipmedia">
-            <video controls playsinline preload="none" poster="assets/clips/2_billy.jpg" width="720" height="1280" aria-label="Clip Billy Immo — 3 chambres salon, Calavi Houéto">
+            <video controls playsinline preload="metadata" poster="assets/clips/2_billy.jpg" width="720" height="1280" aria-label="Clip Billy Immo — 3 chambres salon, Calavi Houéto">
               <source src="assets/clips/2_billy.mp4" type="video/mp4">
               Votre navigateur ne lit pas la vidéo.
             </video>
+            <a class="clipopen" href="assets/clips/2_billy.mp4" target="_blank" rel="noopener">Ouvrir la vidéo</a>
           </div>
           <div class="clipbody">
             <span class="cliptag">47 s · 9:16 · 1080×1920</span>
@@ -648,10 +655,11 @@
         </article>
         <article class="clipcard" data-reveal>
           <div class="clipmedia">
-            <video controls playsinline preload="none" poster="assets/clips/3_appbj.jpg" width="720" height="1280" aria-label="Clip Appartement.bj — Meublé à Calavi Tankpè">
+            <video controls playsinline preload="metadata" poster="assets/clips/3_appbj.jpg" width="720" height="1280" aria-label="Clip Appartement.bj — Meublé à Calavi Tankpè">
               <source src="assets/clips/3_appbj.mp4" type="video/mp4">
               Votre navigateur ne lit pas la vidéo.
             </video>
+            <a class="clipopen" href="assets/clips/3_appbj.mp4" target="_blank" rel="noopener">Ouvrir la vidéo</a>
           </div>
           <div class="clipbody">
             <span class="cliptag">47 s · 9:16 · 1080×1920</span>
@@ -662,10 +670,11 @@
         </article>
         <article class="clipcard" data-reveal>
           <div class="clipmedia">
-            <video controls playsinline preload="none" poster="assets/clips/4_meuble.jpg" width="720" height="1280" aria-label="Clip Appartement Meublé — Séjour Fidjrossè-Fiyegnon">
+            <video controls playsinline preload="metadata" poster="assets/clips/4_meuble.jpg" width="720" height="1280" aria-label="Clip Appartement Meublé — Séjour Fidjrossè-Fiyegnon">
               <source src="assets/clips/4_meuble.mp4" type="video/mp4">
               Votre navigateur ne lit pas la vidéo.
             </video>
+            <a class="clipopen" href="assets/clips/4_meuble.mp4" target="_blank" rel="noopener">Ouvrir la vidéo</a>
           </div>
           <div class="clipbody">
             <span class="cliptag">45 s · 9:16 · 1080×1920</span>
@@ -676,10 +685,11 @@
         </article>
         <article class="clipcard" data-reveal>
           <div class="clipmedia">
-            <video controls playsinline preload="none" poster="assets/clips/5_junior.jpg" width="720" height="1280" aria-label="Clip Junior Bannerman — Pierrailles à Calavi Togba">
+            <video controls playsinline preload="metadata" poster="assets/clips/5_junior.jpg" width="720" height="1280" aria-label="Clip Junior Bannerman — Pierrailles à Calavi Togba">
               <source src="assets/clips/5_junior.mp4" type="video/mp4">
               Votre navigateur ne lit pas la vidéo.
             </video>
+            <a class="clipopen" href="assets/clips/5_junior.mp4" target="_blank" rel="noopener">Ouvrir la vidéo</a>
           </div>
           <div class="clipbody">
             <span class="cliptag">47 s · 9:16 · 1080×1920</span>
