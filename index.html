@@ -335,6 +335,24 @@
     h1 .ch{opacity:1!important;transform:none!important}
     #cubes{display:none}
   }
+
+  /* ---- Clips livrés ---- */
+  .cliplead{max-width:720px;margin:0 auto clamp(20px,3vw,30px);text-align:center;color:var(--muted);font-size:clamp(.9rem,.5vw + .8rem,1.02rem);line-height:1.65}
+  .clipgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(268px,1fr));gap:clamp(14px,2vw,22px)}
+  .clipcard{background:linear-gradient(160deg,rgba(22,44,58,.82),rgba(10,24,34,.78));border:1px solid var(--stroke);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:transform .5s var(--eo),border-color .4s ease,box-shadow .5s ease}
+  .clipcard:hover{transform:translateY(-6px);border-color:var(--stroke2);box-shadow:0 18px 44px -18px rgba(62,225,255,.35)}
+  .clipmedia{position:relative;background:#050d12;aspect-ratio:9/16;max-height:430px;overflow:hidden}
+  .clipmedia video{width:100%;height:100%;object-fit:contain;display:block}
+  .clipbody{padding:14px 16px 18px;display:flex;flex-direction:column;gap:6px}
+  .cliptag{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--cyan);font-weight:700}
+  .clipbody h3{font-size:1.02rem;color:var(--txt);margin:0}
+  .clipsub{font-size:.82rem;color:var(--cyan);margin:0;opacity:.85}
+  .clipbody p{font-size:.83rem;line-height:1.6;color:var(--muted);margin:0}
+  .clipnote{display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:clamp(16px,2.4vw,26px);margin-top:clamp(20px,3vw,30px);border-radius:var(--r)}
+  .clipnote strong{color:var(--txt);font-size:.95rem}
+  .clipnote p{color:var(--muted);font-size:.85rem;line-height:1.6;margin:6px 0 0;max-width:620px}
+  @media(max-width:640px){.clipmedia{max-height:none}}
+
 </style>
 <script type="application/ld+json">
 {
@@ -468,6 +486,7 @@
         <a href="#apropos" class="active">À propos</a>
         <a href="#competences">Compétences</a>
         <a href="#projets">Projets</a>
+        <a href="#clips">Clips</a>
         <a href="#process">Process</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -553,6 +572,7 @@
         <div class="tile"><span class="ic" style="background:#7f52ff">Kt</span>Kotlin</div>
         <div class="tile"><span class="ic" style="background:#68a063">No</span>Node.js</div>
         <div class="tile feat"><span class="ic" style="background:var(--cyan)">Md</span>Motion Design</div>
+        <div class="tile feat"><span class="ic" style="background:#22c55e">Ff</span>ffmpeg / rendu frame par frame</div>
         <div class="tile"><span class="ic" style="background:#f472b6">Ux</span>UI/UX</div>
         <div class="tile"><span class="ic" style="background:#34d399">Cy</span>Cybersécurité</div>
         <div class="tile"><span class="ic" style="background:#fb923c">Bl</span>Blender 3D</div>
@@ -590,6 +610,91 @@
       </div>
     </div>
     <div class="dots" id="dots"></div>
+  </div>
+</section>
+
+<section id="clips">
+  <div class="wrap">
+    <h2 class="sec-t" data-reveal>Clips livrés <em>en conditions réelles</em></h2>
+    <p class="cliplead" data-reveal>Cinq clips produits en une journée pour cinq agences immobilières de Cotonou et de Calavi. Chaque video part de leurs propres images, tournées au téléphone, et ressort en 9:16 prêt à publier — motion design, typographie cinétique, compteurs, transitions. Aucun d'eux n'a payé : ils ont reçu le clip avant de savoir qu'il existait une offre.</p>
+    <div class="clipgrid">
+        <article class="clipcard" data-reveal>
+          <div class="clipmedia">
+            <video controls playsinline preload="none" poster="assets/clips/1_segla.jpg" width="720" height="1280" aria-label="Clip Sègla Immobilier — Villa triplex, Fidjrossè Plage">
+              <source src="assets/clips/1_segla.mp4" type="video/mp4">
+              Votre navigateur ne lit pas la vidéo.
+            </video>
+          </div>
+          <div class="clipbody">
+            <span class="cliptag">47 s · 9:16 · 1080×1920</span>
+            <h3>Sègla Immobilier</h3>
+            <p class="clipsub">Villa triplex, Fidjrossè Plage</p>
+            <p>Le titre se construit lettre par lettre, le local et le standing passent en badges élastiques, puis un odomètre descend la gamme de prix. Fin sur le numéro WhatsApp du client.</p>
+          </div>
+        </article>
+        <article class="clipcard" data-reveal>
+          <div class="clipmedia">
+            <video controls playsinline preload="none" poster="assets/clips/2_billy.jpg" width="720" height="1280" aria-label="Clip Billy Immo — 3 chambres salon, Calavi Houéto">
+              <source src="assets/clips/2_billy.mp4" type="video/mp4">
+              Votre navigateur ne lit pas la vidéo.
+            </video>
+          </div>
+          <div class="clipbody">
+            <span class="cliptag">47 s · 9:16 · 1080×1920</span>
+            <h3>Billy Immo</h3>
+            <p class="clipsub">3 chambres salon, Calavi Houéto</p>
+            <p>Le loyer de 60 000 F sort en compteur odomètre, suivi de trois badges d'arguments. Le dernier plan empile les conditions en liste numérotée animée.</p>
+          </div>
+        </article>
+        <article class="clipcard" data-reveal>
+          <div class="clipmedia">
+            <video controls playsinline preload="none" poster="assets/clips/3_appbj.jpg" width="720" height="1280" aria-label="Clip Appartement.bj — Meublé à Calavi Tankpè">
+              <source src="assets/clips/3_appbj.mp4" type="video/mp4">
+              Votre navigateur ne lit pas la vidéo.
+            </video>
+          </div>
+          <div class="clipbody">
+            <span class="cliptag">47 s · 9:16 · 1080×1920</span>
+            <h3>Appartement.bj</h3>
+            <p class="clipsub">Meublé à Calavi Tankpè</p>
+            <p>Ouverture typographique pleine largeur, prix en odomètre, puis une liste d'étapes qui apparaît une par une. La palette corail tranche avec le vert du marché.</p>
+          </div>
+        </article>
+        <article class="clipcard" data-reveal>
+          <div class="clipmedia">
+            <video controls playsinline preload="none" poster="assets/clips/4_meuble.jpg" width="720" height="1280" aria-label="Clip Appartement Meublé — Séjour Fidjrossè-Fiyegnon">
+              <source src="assets/clips/4_meuble.mp4" type="video/mp4">
+              Votre navigateur ne lit pas la vidéo.
+            </video>
+          </div>
+          <div class="clipbody">
+            <span class="cliptag">45 s · 9:16 · 1080×1920</span>
+            <h3>Appartement Meublé</h3>
+            <p class="clipsub">Séjour Fidjrossè-Fiyegnon</p>
+            <p>Typographie cinétique sur cinq mots, deux badges de réassurance, puis les deux publics du bien — court et long séjour — posés en étapes.</p>
+          </div>
+        </article>
+        <article class="clipcard" data-reveal>
+          <div class="clipmedia">
+            <video controls playsinline preload="none" poster="assets/clips/5_junior.jpg" width="720" height="1280" aria-label="Clip Junior Bannerman — Pierrailles à Calavi Togba">
+              <source src="assets/clips/5_junior.mp4" type="video/mp4">
+              Votre navigateur ne lit pas la vidéo.
+            </video>
+          </div>
+          <div class="clipbody">
+            <span class="cliptag">47 s · 9:16 · 1080×1920</span>
+            <h3>Junior Bannerman</h3>
+            <p class="clipsub">Pierrailles à Calavi Togba</p>
+            <p>Le 500 m² sort en compteur, suivi des mentions titre et zone habitée. Le dernier plan repositionne le bien comme investissement, pas comme terrain.</p>
+          </div>
+        </article></div>
+    <div class="clipnote glass" data-reveal>
+      <div>
+        <strong>Comment c'est fait</strong>
+        <p>Pas d'After Effects, pas de générateur. Le cadrage, le motion, les compteurs et l'export sont écrits en Python et en ffmpeg : chaque frame est calculée. Un clip coûte vingt minutes de calcul et zéro minute de montage à la main.</p>
+      </div>
+      <a class="btn btn-fill" href="#contact">Faire un clip pour mon business</a>
+    </div>
   </div>
 </section>
 
