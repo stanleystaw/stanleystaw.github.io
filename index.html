@@ -149,8 +149,8 @@
   .slide.st-on{transform:none;opacity:1;z-index:3}
   .slide.st-below{transform:scale(.93) translateY(-16px);opacity:.3;z-index:1}
   .slide.st-next{transform:translateY(12%) scale(1.04) rotateX(-9deg);opacity:0;z-index:2;pointer-events:none}
-  .slide .sh{border-radius:12px;overflow:hidden;border:1px solid var(--stroke)}
-  .slide .sh img{width:100%;aspect-ratio:16/10;object-fit:cover;transition:transform 4s ease}
+  .slide .sh{border-radius:12px;overflow:hidden;border:1px solid var(--stroke);background:radial-gradient(120% 120% at 50% 0%,#0b1e29,#050d12 70%);display:flex;align-items:center;justify-content:center;aspect-ratio:4/3;max-height:min(56vh,520px);padding:6px}
+  .slide .sh img{width:100%;height:100%;object-fit:contain;object-position:center;display:block;transition:transform 4s ease}
   .slide:hover .sh img{transform:scale(1.08)}
   .slide h3{font-size:clamp(1rem,3.4vw,1.4rem);letter-spacing:.04em;margin-bottom:10px}
   .slide p{color:var(--muted);font-size:.9rem;margin-bottom:16px}
@@ -314,14 +314,6 @@
   .mq span{font-weight:800;letter-spacing:.22em;font-size:clamp(12px,1.8vw,19px);color:var(--muted);text-transform:uppercase}
   .mq b{color:var(--cyan);text-shadow:0 0 14px rgba(62,225,255,.6)}
   @keyframes mqm{to{transform:translateX(-50%)}}
-  .shut{position:absolute;left:-1%;right:-1%;height:34%;transform:scaleX(0);pointer-events:none;z-index:4;opacity:0}
-  .shut.s1{top:0;background:linear-gradient(90deg,transparent 2%,rgba(62,225,255,.5) 50%,transparent 98%)}
-  .shut.s2{top:33%;background:linear-gradient(90deg,transparent 2%,rgba(255,92,122,.45) 50%,transparent 98%)}
-  .shut.s3{top:66%;background:linear-gradient(90deg,transparent 2%,rgba(255,180,84,.4) 50%,transparent 98%)}
-  section.go .shut{animation:shut 1s var(--io) forwards}
-  section.go .s2{animation-delay:.09s}
-  section.go .s3{animation-delay:.18s}
-  @keyframes shut{0%{transform:scaleX(0);transform-origin:left center;opacity:1}46%{transform:scaleX(1);transform-origin:left center}54%{transform:scaleX(1);transform-origin:right center}100%{transform:scaleX(0);transform-origin:right center;opacity:.85}}
   .radwrap{margin-top:16px;padding:18px;display:flex;justify-content:center}
   #radar{max-width:640px}
   #px,#knot{contain:strict}
@@ -593,23 +585,23 @@
     <div class="car glass" data-reveal>
       <div class="car-track" id="carTrack">
         <div class="slide">
-          <div class="sh"><img src="assets/img/stawalend.webp" width="960" height="1440" loading="lazy" decoding="async" alt="Courbes financières sur tablette et ordinateur"></div>
+          <div class="sh" style="aspect-ratio:2/3"><img src="assets/img/stawalend.webp" width="960" height="1440" loading="lazy" decoding="async" alt="Courbes financières sur tablette et ordinateur"></div>
           <div><h3>StawaLend</h3><p>MVP de finance décentralisée : architecture Full-Stack, UI/UX complète et back-end de gestion des prêts. Lead Developer & Product Designer.</p><a class="btn" href="#contact">En savoir plus</a></div>
         </div>
         <div class="slide">
-          <div class="sh"><img src="assets/img/betiq.webp" width="960" height="538" loading="lazy" decoding="async" alt="Tableau de bord analytique sombre"></div>
+          <div class="sh" style="aspect-ratio:16/9"><img src="assets/img/betiq.webp" width="960" height="538" loading="lazy" decoding="async" alt="Tableau de bord analytique sombre"></div>
           <div><h3>BETIQ</h3><p>Composants applicatifs et IA embarquée : traitements et analyses automatisés avec Python, API et bases de données.</p><a class="btn" href="#contact">En savoir plus</a></div>
         </div>
         <div class="slide">
-          <div class="sh"><img src="assets/img/stanley-bot.webp" width="900" height="1350" loading="lazy" decoding="async" alt="Chatbot IA sur smartphone"></div>
+          <div class="sh" style="aspect-ratio:2/3"><img src="assets/img/stanley-bot.webp" width="900" height="1350" loading="lazy" decoding="async" alt="Chatbot IA sur smartphone"></div>
           <div><h3>Stanley Bot SaaS</h3><p>Plateforme SaaS multi-utilisateur de gestion de bots : authentification, tableau de bord administrateur, Turso/libSQL.</p><a class="btn" href="#contact">En savoir plus</a></div>
         </div>
         <div class="slide">
-          <div class="sh"><img src="assets/img/montage.webp" width="960" height="540" loading="lazy" decoding="async" alt="Station de montage vidéo double écran"></div>
+          <div class="sh" style="aspect-ratio:16/9"><img src="assets/img/montage.webp" width="960" height="540" loading="lazy" decoding="async" alt="Station de montage vidéo double écran"></div>
           <div><h3>Automatisation de contenu</h3><p>Pipeline Python + IA sur Replit : génération, préparation et publication. Workflow TikTok et démos YouTube HistoireAi-r6p.</p><a class="btn" href="#contact">En savoir plus</a></div>
         </div>
         <div class="slide">
-          <div class="sh"><img src="assets/img/hugues-jobs.svg" width="800" height="500" loading="lazy" decoding="async" alt="Bot Discord Hugues Jobs : offres d'emploi et assistant IA"></div>
+          <div class="sh" style="aspect-ratio:8/5"><img src="assets/img/hugues-jobs.svg" width="800" height="500" loading="lazy" decoding="async" alt="Bot Discord Hugues Jobs : offres d'emploi et assistant IA"></div>
           <div><h3>Hugues Jobs — Bot Discord</h3><p>Bot Discord officiel (discord.js, Node.js) : veille automatique d'offres à distance (APIs Remotive, Himalayas, Jobicy) filtrées par compétences, boutons interactifs, brouillons générés par IA (Gemini), analyse de captures et détection d'arnaques. Hébergé sur Render, base Turso/libSQL.</p><a class="btn" href="#contact">En savoir plus</a></div>
         </div>
       </div>
@@ -1207,9 +1199,6 @@
       }
     })(0);
 
-    Array.prototype.forEach.call(document.querySelectorAll('section'), function(sec){
-      ['s1','s2','s3'].forEach(function(cn){ var sh = document.createElement('i'); sh.className = 'shut ' + cn; sec.appendChild(sh); });
-    });
     Array.prototype.forEach.call(document.querySelectorAll('section'), function(sc){ watch(sc, .25, function(){ sc.classList.add('go'); }); });
 
 
