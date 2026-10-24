@@ -350,6 +350,20 @@
   @media(hover:none){.clipopen{opacity:1}}
   @media(max-width:640px){.clipmedia{max-height:none}}
 
+
+  /* ---- tarifs ---- */
+  .tarifs{margin-top:34px;display:grid;gap:14px}
+  .tf{display:flex;align-items:center;justify-content:space-between;gap:20px;
+      padding:20px 26px;border:1px solid var(--stroke);border-radius:18px;
+      background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.012))}
+  .tf .tl{min-width:0}
+  .tf .tt{font-size:1.02rem;font-weight:800;letter-spacing:.01em}
+  .tf .td{color:var(--muted);font-size:.86rem;margin-top:4px}
+  .tf .tp{font-size:1.28rem;font-weight:800;color:#F2B544;white-space:nowrap;text-align:right}
+  .tf .tp small{display:block;font-size:.62rem;letter-spacing:.14em;color:var(--muted);font-weight:600;margin-top:3px}
+  .tf.star{border-color:rgba(242,181,68,.55);background:linear-gradient(180deg,rgba(242,181,68,.13),rgba(242,181,68,.03))}
+  .tfnote{margin-top:16px;color:var(--muted);font-size:.85rem}
+  @media(max-width:560px){.tf{flex-wrap:wrap}.tf .tp{text-align:left}}
 </style>
 <script type="application/ld+json">
 {
@@ -719,6 +733,34 @@
         <p>Bots officiels discord.js : commandes slash, boutons, modération, tickets, rôles, alertes et flux automatiques (offres, annonces, API), assistant IA intégré, hébergement 24/7.</p>
       </div>
     </div>
+    <h2 class="sec-t" data-reveal style="margin-top:56px">Tarifs <em>clips</em></h2>
+    <p class="cliplead" data-reveal>Le même travail que sur les cinq clips ci-dessus, à la commande.
+       Chaque clip part de vos propres images et garde votre voix. Facturation en FCFA, livraison en 48 h.</p>
+    <div class="tarifs">
+      <div class="tf star" data-reveal>
+        <div class="tl"><div class="tt">Abonnement 15 clips / mois</div>
+          <div class="td">soit 3 333 F le clip · révisions incluses · étalé sur le mois</div></div>
+        <div class="tp">50 000 F<small>/ MOIS</small></div>
+      </div>
+      <div class="tf" data-reveal>
+        <div class="tl"><div class="tt">Pack 5 clips</div>
+          <div class="td">au lieu de 25 000 F · une annonce, cinq angles</div></div>
+        <div class="tp">20 000 F<small>LE PACK</small></div>
+      </div>
+      <div class="tf" data-reveal>
+        <div class="tl"><div class="tt">Clip à l'unité</div>
+          <div class="td">30 s · 1080×1920 · sous-titres · 1 révision</div></div>
+        <div class="tp">5 000 F<small>LE CLIP</small></div>
+      </div>
+      <div class="tf" data-reveal>
+        <div class="tl"><div class="tt">Options</div>
+          <div class="td">voix off professionnelle +5 000 F · script et tournage +15 000 F</div></div>
+        <div class="tp" style="font-size:1rem">sur devis</div>
+      </div>
+    </div>
+    <p class="tfnote" data-reveal>Moyens de paiement : Mobile Money, virement. Une révision par clip incluse,
+       les suivantes à 1 000 F.</p>
+
   </div>
 </section>
 
