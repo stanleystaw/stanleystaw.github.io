@@ -34,3 +34,11 @@ Python, JavaScript, React, Next.js, Vue/Nuxt, Tailwind CSS, Node.js, Kotlin, SQL
 - Page nom exact : https://stanleystaw.github.io/hugues-fadonougbo/
 - Page nom inversé : https://stanleystaw.github.io/fadonougbo-hugues/
 - Fiche HTML (Google Drive) : https://drive.google.com/file/d/18x58WtrVM0oDjjm_JtQoq8_8-kKPjuhv/view
+
+## Intervention courte API / web
+- Page : https://stanleystaw.github.io/#intervention
+- Un ticket API documentée, transformation JSON ou correctif JavaScript/React, après validation du périmètre.
+- Bénin : 100 000 FCFA, acompte 50 000 FCFA. International : 160 EUR, acompte 80 EUR. Solde après démonstration du résultat convenu.
+- Délai indicatif de 1 à 2 jours ouvrés après acompte et accès autorisés ; calendrier confirmé avant engagement. API/hébergement et application complète exclus.
+- Contact pour cette offre : stanleystawaca@gmail.com
+- Stanley Bot SaaS : actuellement hors service. Les projets personnels ne sont pas des références clients n8n.

@@ -328,28 +328,13 @@
     #cubes{display:none}
   }
 
-  /* ---- Clips livrés ---- */
-  .cliplead{max-width:720px;margin:0 auto clamp(20px,3vw,30px);text-align:center;color:var(--muted);font-size:clamp(.9rem,.5vw + .8rem,1.02rem);line-height:1.65}
-  .clipgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(268px,1fr));gap:clamp(14px,2vw,22px)}
-  .clipcard{background:linear-gradient(160deg,rgba(22,44,58,.82),rgba(10,24,34,.78));border:1px solid var(--stroke);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:transform .5s var(--eo),border-color .4s ease,box-shadow .5s ease}
-  .clipcard:hover{transform:translateY(-6px);border-color:var(--stroke2);box-shadow:0 18px 44px -18px rgba(62,225,255,.35)}
-  .clipmedia{position:relative;background:#050d12;aspect-ratio:9/16;max-height:430px;overflow:hidden}
-  .clipmedia video{width:100%;height:100%;object-fit:contain;display:block}
-  .clipbody{padding:14px 16px 18px;display:flex;flex-direction:column;gap:6px}
-  .cliptag{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--cyan);font-weight:700}
-  .clipbody h3{font-size:1.02rem;color:var(--txt);margin:0}
-  .clipsub{font-size:.82rem;color:var(--cyan);margin:0;opacity:.85}
-  .clipbody p{font-size:.83rem;line-height:1.6;color:var(--muted);margin:0}
-  .clipnote{display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:clamp(16px,2.4vw,26px);margin-top:clamp(20px,3vw,30px);border-radius:var(--r)}
-  .clipnote strong{color:var(--txt);font-size:.95rem}
-  .clipnote p{color:var(--muted);font-size:.85rem;line-height:1.6;margin:6px 0 0;max-width:620px}
-  .clipopen{position:absolute;left:50%;bottom:10px;transform:translateX(-50%);font-size:.72rem;font-weight:700;
-    letter-spacing:.06em;text-transform:uppercase;color:#08131c;background:rgba(62,225,255,.94);
-    padding:7px 14px;border-radius:99px;text-decoration:none;opacity:0;transition:opacity .3s ease}
-  .clipmedia:hover .clipopen,.clipmedia:focus-within .clipopen{opacity:1}
-  @media(hover:none){.clipopen{opacity:1}}
-  @media(max-width:640px){.clipmedia{max-height:none}}
-
+  .offer-intro{max-width:760px;margin:0 auto 24px;text-align:center;color:var(--muted);line-height:1.7}
+  .offer-panel{padding:clamp(20px,4vw,38px);border-radius:var(--r)}
+  .offer-panel h3{margin:20px 0 10px;color:var(--cyan)}
+  .offer-panel p,.offer-panel li{color:var(--muted);line-height:1.75}
+  .offer-panel ul,.offer-panel ol{padding-left:22px}
+  .offer-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+  @media(max-width:600px){#intervention .tf{align-items:flex-start;flex-direction:column}#intervention .tf .tp{text-align:left;white-space:normal}}
 
   /* ---- tarifs ---- */
   .tarifs{margin-top:34px;display:grid;gap:14px}
@@ -497,7 +482,7 @@
         <a href="#apropos" class="active">À propos</a>
         <a href="#competences">Compétences</a>
         <a href="#projets">Projets</a>
-        <a href="#clips">Clips</a>
+        <a href="#intervention">Intervention API/web</a>
         <a href="#process">Process</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -525,7 +510,7 @@
       <p>Expériences digitales modernes : applications web, plateformes SaaS, bots, automatisation IA et interfaces animées au pixel près — de l'architecture au déploiement.</p>
       <div class="h-actions">
         <a class="btn" href="#projets">Voir projets</a>
-        <a class="btn btn-fill" href="#contact">Me contacter</a>
+        <a class="btn btn-fill" href="#intervention">Voir l’offre API/web</a>
       </div>
     </div>
     <div class="hero-photo" data-reveal style="--d:.1s">
@@ -624,101 +609,26 @@
   </div>
 </section>
 
-<section id="clips">
+<section id="intervention">
   <div class="wrap">
-    <h2 class="sec-t" data-reveal>Clips livrés <em>en conditions réelles</em></h2>
-    <p class="cliplead" data-reveal>Six clips produits pour six agences immobilières de Cotonou et de Calavi. Chaque film part de leurs propres images, tournées au téléphone, et ressort en 9:16 prêt à publier. Le moteur est du code : une page HTML animée image par image dans Chromium, composée avec ffmpeg — typographie cinétique à ressorts, compteurs qui s'arrêtent net, puces décalées, transitions qui avalent la coupe. La voix d'origine est conservée, jamais remplacée. Aucune bibliothèque, aucun modèle.</p>
-    <div class="clipgrid">
-        <article class="clipcard" data-reveal>
-          <div class="clipmedia">
-            <video controls playsinline preload="metadata" poster="assets/clips/1-okafs.jpg" width="720" height="1280" aria-label="Clip OKAFS Immobilier — Villa duplex 5 chambres salon, haut standing">
-              <source src="assets/clips/1-okafs.mp4" type="video/mp4">
-              Votre navigateur ne lit pas la vidéo.
-            </video>
-            <a class="clipopen" href="assets/clips/1-okafs.mp4" target="_blank" rel="noopener">Ouvrir la vidéo</a>
-          </div>
-          <div class="clipbody">
-            <span class="cliptag">31 s · 9:16 · motion design</span>
-            <h3>OKAFS Immobilier</h3>
-            <p class="clipsub">Villa duplex 5 chambres salon, haut standing</p>
-            <p>Six plans découpés dans la visite du gérant. Le chiffre 5 arrive en typographie cinétique, la caméra pousse en continu, et les prestations entrent en liste décalée derrière un panneau opaque qui mange les sous-titres d'origine.</p>
-          </div>
-        </article>
-        <article class="clipcard" data-reveal>
-          <div class="clipmedia">
-            <video controls playsinline preload="metadata" poster="assets/clips/2-dimi.jpg" width="720" height="1280" aria-label="Clip Dimi Immo Service — Appartement 3 chambres salon, Godomey Togoudo">
-              <source src="assets/clips/2-dimi.mp4" type="video/mp4">
-              Votre navigateur ne lit pas la vidéo.
-            </video>
-            <a class="clipopen" href="assets/clips/2-dimi.mp4" target="_blank" rel="noopener">Ouvrir la vidéo</a>
-          </div>
-          <div class="clipbody">
-            <span class="cliptag">31 s · 9:16 · motion design</span>
-            <h3>Dimi Immo Service</h3>
-            <p class="clipsub">Appartement 3 chambres salon, Godomey Togoudo</p>
-            <p>Un compteur à ressort égrène le loyer de 200 000 F, la décimale s'arrête net sur la valeur. La coupe du deuxième au troisième plan est avalée par un balayage plein cadre.</p>
-          </div>
-        </article>
-        <article class="clipcard" data-reveal>
-          <div class="clipmedia">
-            <video controls playsinline preload="metadata" poster="assets/clips/3-mrben.jpg" width="720" height="1280" aria-label="Clip Mr Ben Officiel — Villa 06 chambres, Akpakpa quartier Jack">
-              <source src="assets/clips/3-mrben.mp4" type="video/mp4">
-              Votre navigateur ne lit pas la vidéo.
-            </video>
-            <a class="clipopen" href="assets/clips/3-mrben.mp4" target="_blank" rel="noopener">Ouvrir la vidéo</a>
-          </div>
-          <div class="clipbody">
-            <span class="cliptag">31 s · 9:16 · motion design</span>
-            <h3>Mr Ben Officiel</h3>
-            <p class="clipsub">Villa 06 chambres, Akpakpa quartier Jack</p>
-            <p>Le titre et le prix sont reconstruits par-dessus la vidéo d'origine : 06 chambres, 02 salons, TF personnel, 180 millions négociable. Rien n'est inventé, tout vient de son annonce.</p>
-          </div>
-        </article>
-        <article class="clipcard" data-reveal>
-          <div class="clipmedia">
-            <video controls playsinline preload="metadata" poster="assets/clips/4-jeano.jpg" width="720" height="1280" aria-label="Clip Immo Multi Tâches — Entrée personnelle neuve, Calavi">
-              <source src="assets/clips/4-jeano.mp4" type="video/mp4">
-              Votre navigateur ne lit pas la vidéo.
-            </video>
-            <a class="clipopen" href="assets/clips/4-jeano.mp4" target="_blank" rel="noopener">Ouvrir la vidéo</a>
-          </div>
-          <div class="clipbody">
-            <span class="cliptag">31 s · 9:16 · motion design</span>
-            <h3>Immo Multi Tâches</h3>
-            <p class="clipsub">Entrée personnelle neuve, Calavi</p>
-            <p>Montage sur le mouvement : l'entrée s'ouvre, le volume du séjour prend le relais, la lumière LED du plafond ferme le triptyque. Trois plans, deux balayages, aucune frame figée.</p>
-          </div>
-        </article>
-        <article class="clipcard" data-reveal>
-          <div class="clipmedia">
-            <video controls playsinline preload="metadata" poster="assets/clips/5-mas.jpg" width="720" height="1280" aria-label="Clip MAS Services Immobilier — Appartement T3, 2 chambres salon">
-              <source src="assets/clips/5-mas.mp4" type="video/mp4">
-              Votre navigateur ne lit pas la vidéo.
-            </video>
-            <a class="clipopen" href="assets/clips/5-mas.mp4" target="_blank" rel="noopener">Ouvrir la vidéo</a>
-          </div>
-          <div class="clipbody">
-            <span class="cliptag">31 s · 9:16 · motion design</span>
-            <h3>MAS Services Immobilier</h3>
-            <p class="clipsub">Appartement T3, 2 chambres salon</p>
-            <p>Le loyer de 100 000 F monte en compteur pendant que la caméra dérive. Balcon, terrasse et garage personnel s'empilent en puces qui glissent depuis la gauche.</p>
-          </div>
-        </article>
-        <article class="clipcard" data-reveal>
-          <div class="clipmedia">
-            <video controls playsinline preload="metadata" poster="assets/clips/7-billy.jpg" width="720" height="1280" aria-label="Clip Billy Immo — Chambre salon 60 000 F, Calavi Houéto">
-              <source src="assets/clips/7-billy.mp4" type="video/mp4">
-              Votre navigateur ne lit pas la vidéo.
-            </video>
-            <a class="clipopen" href="assets/clips/7-billy.mp4" target="_blank" rel="noopener">Ouvrir la vidéo</a>
-          </div>
-          <div class="clipbody">
-            <span class="cliptag">31 s · 9:16 · motion design</span>
-            <h3>Billy Immo</h3>
-            <p class="clipsub">Chambre salon, 60 000 F/mois, Calavi Houéto</p>
-            <p>Annonce de location découpée en trois plans : la chambre jamais habitée, l'entrée personnelle, la salle d'eau carrelée. Le loyer de 60 000 F monte en compteur, les atouts tombent en liste décalée, et le numéro du bailleur ferme le film.</p>
-          </div>
-        </article>
+    <h2 class="sec-t" data-reveal>Un ticket. <em>Un résultat vérifiable.</em></h2>
+    <p class="offer-intro" data-reveal>Une intervention courte pour débloquer une livraison web ou API, sans engager une application complète. Pour les entreprises et les agences qui souhaitent déléguer un besoin précis.</p>
+    <div class="offer-panel glass" data-reveal>
+      <h3>Quel problème voulez-vous résoudre ?</h3>
+      <ul><li>Un appel à une API documentée qui échoue.</li><li>Une réponse JSON à valider ou transformer avant stockage dans une base existante.</li><li>Un défaut JavaScript ou React reproductible sur un écran existant.</li></ul>
+      <p><strong>Inclus :</strong> un seul ticket accepté après examen, le code modifié, une vérification reproductible et une courte note de prise en main. Le résultat attendu est défini par écrit avant tout engagement.</p>
+      <div class="tarifs">
+        <div class="tf star"><div class="tl"><div class="tt">Forfait Bénin</div><div class="td">50 000 FCFA d’acompte après accord écrit · solde après démonstration du résultat convenu</div></div><div class="tp">100 000 FCFA<small>UN TICKET CADRÉ</small></div></div>
+        <div class="tf"><div class="tl"><div class="tt">Forfait international</div><div class="td">80 € d’acompte après accord écrit · solde après démonstration du résultat convenu</div></div><div class="tp">160 €<small>UN TICKET CADRÉ</small></div></div>
+      </div>
+      <h3>Du besoin à la livraison</h3>
+      <ol><li>Décrivez le problème et le résultat attendu avec un exemple anonymisé.</li><li>Nous confirmons la faisabilité, le périmètre, les critères de réception, le paiement et la date.</li><li>Après accord, acompte et accès autorisés : réalisation, vérification et démonstration.</li></ol>
+      <p><strong>Délai indicatif :</strong> 1 à 2 jours ouvrés après réception de l’acompte et des accès autorisés, uniquement si le périmètre s’y prête et après confirmation du calendrier. Aucun démarrage ni travail supplémentaire sans accord.</p>
+      <p class="tfnote">Hors forfait : application ou agent IA complet, refonte, audit de sécurité, test d’intrusion et frais API/hébergement. Les conditions de facturation et de règlement sont précisées au devis. N’envoyez aucun mot de passe ni donnée client dans votre premier message.</p>
+      <h3>Du code concret, pas des références inventées</h3>
+      <p><strong>Hugues Jobs :</strong> projet personnel Node.js/discord.js intégrant des API d’offres, du filtrage, Gemini et Turso/libSQL. <strong>Stanley Bot SaaS :</strong> seul développeur, août–novembre 2026 ; gestion de bots, authentification et contrôles d’accès applicatifs. Le SaaS est actuellement hors service. Ces projets ne sont pas présentés comme des déploiements clients n8n.</p>
+      <p>Basé à Parakou, Bénin (UTC+1). Français natif. Collaboration possible sous la coordination de votre agence.</p>
+      <div class="offer-actions"><a class="btn btn-fill" href="mailto:stanleystawaca@gmail.com?subject=Ticket%20API%20ou%20web%20-%20demande%20de%20cadrage">Décrire mon ticket par e-mail</a><a class="btn" href="tel:+2290140912272">+229 01 40 91 22 72</a></div>
     </div>
   </div>
 </section>
@@ -748,33 +658,6 @@
         <p>Bots officiels discord.js : commandes slash, boutons, modération, tickets, rôles, alertes et flux automatiques (offres, annonces, API), assistant IA intégré, hébergement 24/7.</p>
       </div>
     </div>
-    <h2 class="sec-t" data-reveal style="margin-top:56px">Tarifs <em>clips</em></h2>
-    <p class="cliplead" data-reveal>Le même travail que sur les cinq clips ci-dessus, à la commande.
-       Chaque clip part de vos propres images et garde votre voix. Facturation en FCFA, livraison en 48 h.</p>
-    <div class="tarifs">
-      <div class="tf star" data-reveal>
-        <div class="tl"><div class="tt">Abonnement 15 clips / mois</div>
-          <div class="td">soit 3 333 F le clip · révisions incluses · étalé sur le mois</div></div>
-        <div class="tp">50 000 F<small>/ MOIS</small></div>
-      </div>
-      <div class="tf" data-reveal>
-        <div class="tl"><div class="tt">Pack 5 clips</div>
-          <div class="td">au lieu de 25 000 F · une annonce, cinq angles</div></div>
-        <div class="tp">20 000 F<small>LE PACK</small></div>
-      </div>
-      <div class="tf" data-reveal>
-        <div class="tl"><div class="tt">Clip à l'unité</div>
-          <div class="td">30 s · 1080×1920 · sous-titres · 1 révision</div></div>
-        <div class="tp">5 000 F<small>LE CLIP</small></div>
-      </div>
-      <div class="tf" data-reveal>
-        <div class="tl"><div class="tt">Options</div>
-          <div class="td">voix off professionnelle +5 000 F · script et tournage +15 000 F</div></div>
-        <div class="tp" style="font-size:1rem">sur devis</div>
-      </div>
-    </div>
-    <p class="tfnote" data-reveal>Moyens de paiement : Mobile Money, virement. Une révision par clip incluse,
-       les suivantes à 1 000 F.</p>
 
   </div>
 </section>
