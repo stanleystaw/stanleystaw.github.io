@@ -1,0 +1,15 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*session*.json
+# Development artifacts
+node_modules/
+__pycache__/
+.venv/
+.DS_Store
